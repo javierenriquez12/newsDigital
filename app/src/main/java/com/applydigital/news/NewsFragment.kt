@@ -84,7 +84,7 @@ class NewsFragment : Fragment() {
             )
             findNavController().navigate(action)
         } else {
-            Toast.makeText(requireContext(), "URL NO ENCONTRADA", Toast.LENGTH_SHORT).show()
+            Toast.makeText(requireContext(), "URL NOT FOUND", Toast.LENGTH_SHORT).show()
         }
 
     }
